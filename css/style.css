@@ -237,6 +237,7 @@ body {
 
 #slider{
   padding: 10px 100px;
+  min-height: 500px;
 }
 
 
