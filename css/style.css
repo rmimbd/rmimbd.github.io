@@ -1,0 +1,447 @@
+/* common css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.itemize{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.itemize ul{
+  padding: 0;
+}
+
+.flex{
+  display: flex;
+}
+
+
+.width-80{
+  width: 80%;
+}
+
+.width-90{
+  width: 90%;
+}
+
+
+.padding-xy-10{
+  padding: 20px 50px;
+}
+
+.padding-y-10{
+  padding: 20px 0px;
+}
+
+.large-text{
+  font-size: 125%;
+  padding: 1.5px;
+  margin: 0;
+  font-weight: 600;
+}
+.medium-text{
+  font-size: 115%;
+  padding: 1.5px;
+  margin: 0;
+}
+.small-text{
+  font-size: 105%;
+  padding: 1.5px;
+  margin: 0;
+}
+.tiny-text{
+  font-size: 100%;
+  padding: 1.5px;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color: #414344;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: #161616;
+  font-size: 17px;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.heading {
+  color: #181818;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 10px;
+  font-family: "Oswald";
+  font-weight: 400;
+}
+
+.para{
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 110%;
+  line-height: 150%;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 115%;
+}
+
+.logo a{
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Tac One", sans-serif;
+}
+.logo i{
+  color: #ffffff;
+  font-size: 35px;
+}
+
+/* common css end */
+
+/* navbar start  */
+
+#navbar {
+  background-color: #111111;
+  min-height: 75px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#navbar .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+#navbar .main .menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+}
+
+#navbar .main .menu ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar .main .menu ul li {
+  margin-left: 20px;
+  position: relative;
+}
+
+#navbar .main .menu ul li a {
+  color: #cecece;
+  font-weight:500;
+  position: relative;
+  transition: 0.4s;
+}
+
+#navbar .main .menu ul i {
+  font-size: 10px;
+  position: absolute;
+  color: #ffffff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.4s;
+  opacity: 0;
+}
+
+#navbar .main .menu ul li a:hover {
+  color: #ffffff;
+}
+
+#navbar .main .menu ul li a:hover i {
+  opacity: 1;
+  top: -15px;
+}
+
+
+#navbar .main .menu li:hover i {
+  opacity: 1;
+  top: -10px;
+}
+
+/* navbar end  */
+
+/* banner start  */
+#banner {
+  padding: 85px 20px 0 20px;
+  background-color: #444444;
+  border-bottom: 5px solid #111111;
+}
+
+#banner .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner .main .text {
+  width: 43%;
+}
+
+#banner .main .text h1 {
+  color: #fffefe;
+  font-size: 40px;
+  line-height: 80px;
+}
+
+#banner .main .text p {
+  color: #fff;
+  margin: 25px 0;
+}
+#banner .main .text a {
+  background-color: #fff;
+  color: #161616;
+}
+
+#banner .main .image {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#slider{
+  padding: 10px 100px;
+}
+
+
+
+#outline{
+  padding: 100px 0;
+}
+
+#education{
+  margin-top: 25px;
+}
+
+#fieldsofinterest ul li{
+  list-style: disc;
+  font-size: 110%;
+  line-height: 2;
+  margin-left: 25px;
+  font-weight: 600;
+}
+
+#personalinfo ul li{
+  list-style: disc;
+  font-size: 110%;
+  line-height: 2;
+  margin-left: 25px;
+  font-weight: 600;
+}
+
+#address{
+  padding: 50px 0;
+}
+
+#address .heading{
+  text-align: left;
+  padding: 5px 0px;
+}
+
+#address .container{  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+#researchworks .flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#researchworks .image{
+  width: 20%;
+  border: 1px solid #444444;
+  overflow: hidden;
+  padding: 2px;
+}
+#researchworks .image img{
+  width: 100%;
+}
+
+#researchworks .itemize{
+  width: 70%;
+}
+
+
+#projectwork .flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#projectwork .image{
+  width: 20%;
+  border: 1px solid #444444;
+  overflow: hidden;
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+}
+#projectwork .image img{
+  width: 100%;
+}
+
+#projectwork .itemize{
+  width: 70%;
+}
+
+#projectwork a{
+  color: #414344;
+  font-style: normal;
+}
+
+#contact{
+  min-height: 580px;
+}
+
+#contact .flex{
+  justify-content: space-between;
+  padding: 100px 0px;
+}
+
+#contact .itemize{
+  width: 33%;
+  text-align: center;
+  flex-direction: column;
+  transition: 0.3s; 
+}
+
+#contact .itemize:hover{
+  color: #000;
+}
+
+#contact .itemize span{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .itemize i{
+  font-size: 35px;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #111111;
+}
+
+#contact .itemize:hover i{
+  border: 1px solid #000;
+}
+
+/* banner end  */
+
+/* footer css start */
+#footer {
+  background: #444444;
+  padding: 10px 0;
+  color: white;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .brand_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .circle {
+  margin-left: 15px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+}
+
+#footer .circle .tooltiptext {
+  opacity: 0;
+  transform: scale(0);
+  width: 80px;
+  background-color: #d8d8d8;
+  border: 1px dashed black;
+  color: #000;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  transition: 0.3s;
+  font-size: 13px;
+  font-weight: 500;
+  top:-30px;
+}
+
+#footer .circle .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #000000 transparent transparent transparent;
+}
+
+#footer .circle:hover .tooltiptext {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#footer .circle i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120%;
+  color: #161616;
+}
+
+/* footer css end */
